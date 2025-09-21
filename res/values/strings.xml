@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">BoileReport</string>
+    <string name="open">Open drawer</string>
+    <string name="close">Close drawer</string>
+    <string-array name="item_types">
+        <item>Item type</item>
+        <item>Electronics</item>
+        <item>Clothing</item>
+        <item>Books</item>
+        <item>Accessories</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="building_names">
+        <item>Building name</item>
+        <item>Science building (LD)</item>
+        <item>Engineering and Tech building (ET)</item>
+        <item>University Library (UL)</item>
+        <item>Eskenazi hall</item>
+        <item>Other</item>
+    </string-array>
+
+</resources>

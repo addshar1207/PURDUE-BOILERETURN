@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Report item"
+            android:textSize="24sp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/etFinderName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Finder Name"
+            android:layout_marginTop="16dp"/>
+
+        <EditText
+            android:id="@+id/etFinderPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Finder phone"
+            android:layout_marginTop="8dp"/>
+
+        <EditText
+            android:id="@+id/etFinderEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Finder email id"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Item type"
+            android:textSize="20sp" />
+
+        <Spinner
+            android:id="@+id/spinnerItemType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/item_types"
+            android:layout_marginTop="16dp"/>
+
+        <EditText
+            android:id="@+id/etItemName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter item name"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Campus Location"
+            android:textSize="20sp" />
+
+        <Spinner
+            android:id="@+id/spinnerBuilding"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/building_names"
+            android:layout_marginTop="16dp"/>
+
+        <EditText
+            android:id="@+id/etBuilding"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Building"
+            android:layout_marginTop="8dp"/>
+
+        <EditText
+            android:id="@+id/etDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Description"
+            android:layout_marginTop="8dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Upload Item Photo"
+                android:textSize="20sp"
+                android:layout_marginBottom="8dp" />
+
+            <!-- Preview of the selected image -->
+            <ImageView
+                android:id="@+id/ivItemPhoto"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_launcher_foreground"
+                android:background="#E0E0E0"
+                android:contentDescription="Item photo preview" />
+
+            <!-- Button to pick photo -->
+            <Button
+                android:id="@+id/btnUploadPhoto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Choose from Gallery"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"/>
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/submitButton"
+            android:text="Submit"
+            android:backgroundTint="#CFB991"
+            android:textColor="@color/black"
+            android:layout_marginTop="16dp"/>
+
+    </LinearLayout>
+</ScrollView>

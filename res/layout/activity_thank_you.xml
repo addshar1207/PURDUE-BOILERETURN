@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thank you!"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your item has been reported"
+        android:textSize="18sp"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/backButton"
+        android:layout_height="wrap_content"
+        android:text="Go back"
+        android:textColor="@color/black"
+        android:backgroundTint="#CFB991"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
