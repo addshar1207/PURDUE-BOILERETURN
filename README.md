@@ -1,7 +1,7 @@
 # PURDUE-BOILERETURN
 LOST AND FOUND PLATFORM
 
-This project is a part of the Purdue University Hello World Hackathon Submission.
+This project is a part of the Purdue University Hello World Hackathon 2025 Submission.
 
 A lost and found platform built for Purdue students, staff, faculty and guests to easily find, report and return lost items.
 
