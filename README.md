@@ -10,7 +10,7 @@ BoileReturn is an application developed on Android Studio and VS Code platform t
 Key features:
 - Displays popular searches, which are the locations on campus where most students lose items
 - Upload images of lost items as part of the Report Form
-- Scrollable list of lost items and ability to mark items as found 
+- List of lost items
 - Involves SQL database and queries, Java code and XML code
 - Has a Purdue specific colour palette 
 
